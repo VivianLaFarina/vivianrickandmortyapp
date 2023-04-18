@@ -24,7 +24,7 @@ const ResidentCard = ({ resident }) => {
             <div className='relative border-green-800 border-[2px]'>
                 <img className='w-full' src={residentInfo?.image} alt="" />
                 <div className='absolute bottom-4 left-1/2 -translate-x-1/2 bg-[#020A02]/80 border-2 border-green-400  text-white p-1 px-2 flex grap-2 items-center rounded-sm'>
-                  <div className={`w-3 h-3 ${residentsStatus[residentInfo?.status]} rounded-full  shadow-white shadow-lg`}></div>
+                  <div className={`w-3 h-3 ${residentsStatus[residentInfo?.status]} rounded-full `}></div>
                   <span>{residentInfo?.status}</span> 
                 </div>
             </div>

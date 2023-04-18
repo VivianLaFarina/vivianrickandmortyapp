@@ -37,7 +37,7 @@ function App() {
 
   return (
 
-    <div className=" App font-['Fira_Code'] text-white max-sm-[34s0px] mx-auto bg-[url(/images/bg.jpg)]  py-4 min-h-screen">
+    <div className=" App font-['Fira_Code'] text-white max-sm-[340px] mx-auto bg-[url(/images/bg.jpg)]  py-4 min-h-screen">
       <header className="flex flex-col items-center mb-2 gap-2">
         <div className='-translate-y-[50%]'>
           <img src="/images/portal.png" className='animate-spin-portal w-[300px] lg:w-[450px]' alt="" />
