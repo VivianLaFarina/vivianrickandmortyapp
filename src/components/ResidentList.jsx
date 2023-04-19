@@ -31,7 +31,7 @@ const ResidentList = ({location}) => {
       </section>
       <ul className="flex gap-4 justify-center py-4">
         {
-          arrayPages.map(page => <li onClick={() => setCurrentPage(page)} className= {`p-3 cursor-pointer rounded-md ${page == currentPage && 'bg-green-700 text-white font-bold'}` } key={page}>{page}</li> )
+          arrayPages.map(page => <li onClick={() => setCurrentPage(page)} className= {`p-3 cursor-pointer rounded-xl ${page == currentPage && 'bg-green-600 text-white font-bold shadow-lime-700 shadow-lg'}` } key={page}>{page}</li> )
         }
         
       </ul>
